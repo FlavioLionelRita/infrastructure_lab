@@ -1,0 +1,9 @@
+[submodule "app_labs"]
+	path = app_labs
+	url = https://github.com/FlavioLionelRita/app_labs.git
+[submodule "docker-lab"]
+	path = docker-lab
+	url = https://github.com/FlavioLionelRita/docker-lab.git
+[submodule "kubernetes-lab"]
+	path = kubernetes-lab
+	url = https://github.com/FlavioLionelRita/kubernetes-lab.git

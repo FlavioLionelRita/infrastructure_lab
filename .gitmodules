@@ -1,6 +1,6 @@
-[submodule "app_labs"]
-	path = app_labs
-	url = https://github.com/FlavioLionelRita/app_labs.git
+[submodule "app_lab"]
+	path = app_lab
+	url = https://github.com/FlavioLionelRita/app_lab.git
 [submodule "docker-lab"]
 	path = docker-lab
 	url = https://github.com/FlavioLionelRita/docker-lab.git

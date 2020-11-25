@@ -4,3 +4,6 @@
 [submodule "kubernetes-lab"]
 	path = kubernetes-lab
 	url = https://github.com/FlavioLionelRita/kubernetes-lab.git
+[submodule "app_lab"]
+	path = app_lab
+	url = https://github.com/FlavioLionelRita/app_lab.git

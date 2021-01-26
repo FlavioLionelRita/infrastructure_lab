@@ -3,10 +3,8 @@
 
 ```
 sudo apt update
-sudo apt install curl
-sudo apt install wget
-sudo apt install nodejs
-sudo apt install npm
+sudo apt install curl wget
+sudo apt install nodejs npm
 curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt-get install -y nodejs

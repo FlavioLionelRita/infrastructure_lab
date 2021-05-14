@@ -18,7 +18,8 @@ Liberar espacio en VM
 ## En el Host
 ```
 cd C:/Program Files/Oracle/VirtualBox
-VBoxManage.exe modifymedium "C:\Users\Beesion\VirtualBox VMs\Kubernetes\blzCloud\xubuntu 18.04 Buider-disk1.vdi" -compact
+VBoxManage.exe modifymedium "C:\Users\Beesion\VirtualBox VMs\Blazedpath\blazedpath\blazedpath-disk1.vdi" -compact
+```anage.exe modifymedium "C:\Users\Beesion\VirtualBox VMs\Blazedpath\blazedpath\blazedpath-disk1.vdi" -compact
 ```
 
 # aumentar el tamano de VM

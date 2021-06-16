@@ -1,15 +1,30 @@
 
-# Basicos
+# Commandos Basicos
 
-### Listar  (filtrado por puerto, ejemplo: 9456)
+Listar  (filtrado por puerto, ejemplo: 9456)
+```
     netstat -putona | grep 9456
     ps x | grep 9456
-### ver espacio en disco
-    df -h  
-### agregar host (hay que hacerlo con sudo su)
+```
+ver espacio en disco
+```
+    df -h
+```    
+agregar host (hay que hacerlo con sudo su)
+```
    echo "192.168.102.135 verdaccio.blazedpath.local" >> /etc/hosts
-### ver variable de entorno
+```   
+ver variable de entorno
+```
   printenv 
+```  
+
+ssh
+```
+ssh user@192.168.102.82
+```
+à continuacion ingresar la password
+
 
 # liberar espacio en Virtual Box
 Liberar espacio en VM

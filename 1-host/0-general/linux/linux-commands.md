@@ -3,27 +3,44 @@
 
 Listar  (filtrado por puerto, ejemplo: 9456)
 ```
-    netstat -putona | grep 9456
-    ps x | grep 9456
+netstat -putona | grep 9456
+ps x | grep 9456
 ```
 ver espacio en disco
 ```
-    df -h
+df -h
 ```    
 agregar host (hay que hacerlo con sudo su)
 ```
-   echo "192.168.102.135 verdaccio.blazedpath.local" >> /etc/hosts
+echo "192.168.102.135 verdaccio.blazedpath.local" >> /etc/hosts
 ```   
 ver variable de entorno
 ```
-  printenv 
+printenv 
 ```  
 
 ssh
 ```
 ssh user@192.168.102.82
 ```
-à continuacion ingresar la password
+a continuacion ingresar la password
+
+copiar archivo por ssh
+```
+scp file.zip user@192.168.102.82:/apps/portals
+```
+a continuacion ingresar la password
+
+comprimir zip
+```
+zip -r nombre_comprimido.zip directorio_a_comprimir
+```
+
+descomprimir zip
+´´´
+unzip file.zip
+´´´
+
 
 
 # liberar espacio en Virtual Box

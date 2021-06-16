@@ -1,12 +1,14 @@
 
-# Listar  (filtrado por puerto, ejemplo: 9456)
+# Basicos
+
+### Listar  (filtrado por puerto, ejemplo: 9456)
     netstat -putona | grep 9456
     ps x | grep 9456
-# ver espacio en disco
+### ver espacio en disco
     df -h  
-# agregar host (hay que hacerlo con sudo su)
+### agregar host (hay que hacerlo con sudo su)
    echo "192.168.102.135 verdaccio.blazedpath.local" >> /etc/hosts
-# ver variable de entorno
+### ver variable de entorno
   printenv 
 
 # liberar espacio en Virtual Box
